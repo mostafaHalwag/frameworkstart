@@ -3,7 +3,8 @@ import {Link} from "react-router-dom";
 
 
 function Navbar() {
-    return (<nav className="navbar navbar-expand-lg  py-4 fixed-top" style={{backgroundColor: "#2c3e50"}}>
+    return (
+        <nav className="navbar navbar-expand-md  py-4 fixed-top overflow-hidden" style={{backgroundColor: "#2c3e50" , width: "100vw"}}>
         <div className="container">
             <Link className="navbar-brand text-white fw-bolder" to="">START FRAMEWORK</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

@@ -4,9 +4,9 @@ import footerStyle from './footer.module.css';
 function Footer() {
     return (
         <footer className={footerStyle.footer}>
-            <div className="d-flex flex-row m-4 w-100 align-content-md-between" style={{backgroundColor: "#2c3e50"}}>
-                <div className={footerStyle.card}>
-                    <div className={`${footerStyle.cardBody} text-center`}>
+            <div className="d-flex flex-wrap m-4 w-100 align-content-md-between flex-column flex-md-row row" style={{backgroundColor: "#2c3e50"}}>
+                <div className={`${footerStyle.card} col-sm-12 col-md-4 text-white`}>
+                    <div className={`${footerStyle.cardBody} text-center `}>
                         <h3>LOCATION</h3>
                         <p>2215 John Daniel Drive</p>
                         <p>Clark, MO 65243</p>
