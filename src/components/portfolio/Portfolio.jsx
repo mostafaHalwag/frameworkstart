@@ -45,10 +45,10 @@ function Portfolio() {
                             <div className="row g-5">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="rounded-3 overflow-hidden position-relative" onClick={(event)=> {
-                                            displayOverlay(event, '../../../public/img/port1.png')
+                                            displayOverlay(event, '/img/port1.png')
                                         }}>
                                         <img alt="" className="w-100 rounded-3"
-                                             src='../../../public/img/port1.png'/>
+                                             src='/img/port1.png'/>
                                         <div
                                             className={`${portfolioStyles.layer} position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center`}>
                                             <i className="text-white fa-solid fa-plus fa-6x"></i>
@@ -57,10 +57,10 @@ function Portfolio() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="rounded-3 overflow-hidden position-relative" onClick={(event)=> {
-                                            displayOverlay(event, '../../../public/img/port2.png')
+                                            displayOverlay(event, '/img/port2.png')
                                         }}>
                                         <img alt="" className="w-100 rounded-3"
-                                             src="../../../public/img/port2.png"/>
+                                             src="/img/port2.png"/>
                                         <div
                                             className={`${portfolioStyles.layer} position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center`}>
                                             <i className="text-white fa-solid fa-plus fa-6x"></i>
@@ -69,10 +69,10 @@ function Portfolio() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="rounded-3 overflow-hidden position-relative" onClick={(event)=> {
-                                            displayOverlay(event, '../../../public/img/port3.png')
+                                            displayOverlay(event, '/img/port3.png')
                                         }}>
                                         <img alt="" className="w-100 rounded-3"
-                                             src="../../../public/img/port3.png"/>
+                                             src="/img/port3.png"/>
                                         <div
                                             className={`${portfolioStyles.layer} position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center`}>
                                             <i className="text-white fa-solid fa-plus fa-6x"></i>
@@ -81,10 +81,10 @@ function Portfolio() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="rounded-3 overflow-hidden position-relative" onClick={(event)=> {
-                                            displayOverlay(event, '../../../public/img/port1.png')
+                                            displayOverlay(event, '/img/port1.png')
                                         }}>
                                         <img alt="" className="w-100 rounded-3"
-                                             src="../../../public/img/port1.png"/>
+                                             src="/img/port1.png"/>
                                         <div
                                             className={`${portfolioStyles.layer} position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center`}>
                                             <i className="text-white fa-solid fa-plus fa-6x"></i>
@@ -93,10 +93,10 @@ function Portfolio() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="rounded-3 overflow-hidden position-relative" onClick={(event)=> {
-                                            displayOverlay(event, '../../../public/img/port2.png')
+                                            displayOverlay(event, '/img/port2.png')
                                         }}>
                                         <img alt="" className="w-100 rounded-3"
-                                             src="../../../public/img/port2.png"/>
+                                             src="/img/port2.png"/>
                                         <div
                                             className={`${portfolioStyles.layer} position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center`}>
                                             <i className="text-white fa-solid fa-plus fa-6x"></i>
@@ -105,10 +105,10 @@ function Portfolio() {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="rounded-3 overflow-hidden position-relative" onClick={(event)=> {
-                                            displayOverlay(event, '../../../public/img/port3.png')
+                                            displayOverlay(event, '/img/port3.png')
                                         }}>
                                         <img alt="" className="w-100 rounded-3"
-                                             src="../../../public/img/port3.png"/>
+                                             src="/img/port3.png"/>
                                         <div
                                             className={`${portfolioStyles.layer} position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center`}>
                                             <i className="text-white fa-solid fa-plus fa-6x"></i>

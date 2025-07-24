@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './body.module.css'
 import LineModule from "../lineModule/LineModule.jsx";
-
+import avatarImg from "/img/avataaars.svg"
 function Home() {
     return (<div className={`${styles.body} home d-flex justify-content-center align-items-center text-white`}>
         <div className="text-center"><img
-            src="../../../public/img/avataaars.svg" alt=""
+            src={avatarImg} alt=""
             className="mb-3"
             width="250px"
         />
